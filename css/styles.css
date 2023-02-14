@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+*{ 
+   box-sizing: border-box;
+    margin: 0;
+    border: 1px;
+    padding: 0;
+    font-family: 'Cinzel'; 
+    overflow: auto;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgrey;
+    box-sizing: border-box;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    
+}
+.brand {
+    font-size: xx-large;
+    margin-top: -7px;
+}
+.brand span {
+    color:hotpink;
+    
+}
+.menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    
+}
+.menu li{
+    list-style: none;
+    
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 10px 20px;
+   
+}
+.menu a:hover {
+    background-color: lightpink;
+    color: black;
+    transition: ease-in .2s;
+    
+}
+.menu .active {
+    font-weight: 600;
+
+}
+main .info{ 
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    align-items: center; 
+    font-family: 'zen loop';
+    font-size: xx-large;
+    box-sizing: border-box;
+   
+   
+}
+.main img { 
+    border: 5px solid hotpink;
+}
+
+h2{ 
+    padding-left: 100px;
+    padding-top: 30px;
+}
+span{ 
+    color: hotpink;
+    font-weight: 600;
+}
+
+.datos{ 
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    background-color: lightpink;
+    grid-column: 3,2;
+
+    
+    
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 2px;
+}
+.formulario input{
+   font-family: zen loop;
+   list-style: none;
+   margin: 2px;
+   font-size: large;
+
+
+}
+.formulario textarea {
+    font-family: zen loop;
+    list-style: none;
+    margin: 2px;
+    font-size: x-large;
+
+
+}
+.formulario file
+.formulario button { 
+    font-family: zen loop;
+    list-style: none;
+    border-radius: 3em;
+
+}
+
+h3 { 
+    margin-top: 2em 1em;
+    font-size: 2em;
+    font-weight: 700;
+    color: hotpink;
+    border-left-color: darkgrey;
+    padding: 30px 20px 10px 20px;
+}
+.divider { 
+    height: 4px; 
+    width: 100px;
+    background-color: black;
+   
+    margin-bottom: 3em;   
+}
+#datos{ 
+   min-width: min-content;
+   max-width: max-content;
+   min-height: min-content;
+   max-height: max-content;
+   width: 50px;
+   height: 500px;
+   margin: 0;
+   
+}
+
+.lista li {
+    font-family: 'Zen Loop', cursive;
+    text-align: left 20px;
+    font-size: x-large;
+    list-style: circle;
+    margin: 0;
+    padding: 0;
+
+}
+.lista label{
+    font-family: 'zen loop';
+    font-weight: 700;
+}
+
+.estudios{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: darkgrey;
+    padding-left: 2em;
+    grid-column: 2,2
+}
+.imgderecha{
+   text-align: right;
+   
+}
+
+.exp-y-proyectos {
+    text-align: left;
+    padding: 0px 30px 2px 50px;
+    background-color: grey;
+}
+
+.divider2 {
+    height: 10px;
+    width: 70em;
+    background-color: lightpink;
+
+}
